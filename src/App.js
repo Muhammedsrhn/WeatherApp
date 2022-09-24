@@ -10,7 +10,7 @@ function App() {
 
 
 
-  const api = `https://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=25e305a94f657c7249c0a3719ac0febe`
+  const api = `https://api.openweathermap.org/data/2.5/weather?q=${location}&APPID={Api-Key}`
 
   const searchLocation = (event) => {
     if (event.key === 'Enter') {
